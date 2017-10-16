@@ -3,5 +3,35 @@
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.logo {  
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  /*padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;*/
+  flex-grow: 1;
+}
+.logo-text {
+  color: MediumAquamarine;
+  padding-left: 15px;
+  /*align-content: center;*/
+}
+.nav {
+  display: inline-block;
+  padding-right: 30px;
+}
+.nav a {
+  color: black;
+  text-decoration: underline;
+  padding: 10px;
+}
+.container {
+  border: 1px solid black;
 }
